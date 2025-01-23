@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="def()">
+        <section class="main">
+            <div class="navbar">
+                <div class="logo">
+                    <h2><a href="index.html"><span>D</span>aniel.</a></h2>
+                </div>
+                <div class="links">
+                    <a href="index.html" class="active">About Me</a>
+                    <a href="projects.html" class="">My Projects</a>
+                    <a href="about.html" class="">Contact Me</a>
+                </div>
+                <div class="contact">
+                    <svg onclick="lol()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="links">
+                    <div>
+                        <a href="index.html" class="active">About Me</a>
+                    </div>
+                    <div>
+                        <a href="projects.html" class="">My Projects</a>
+                    </div>
+                    <div>
+                        <a href="about.html" class="">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="intro">
+                <div class="txt">
+                    <p id="x"></p>
+                    <h1>Hello, I am <span>Daniel</span> from Nigeria</h1>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about-img">
+                    <img src="images/1000177522.jpg">
+                </div>
+                <div class="about-info">
+                    <h3>About Me</h3>
+                    <div class="info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque veniam incidunt in fuga id, odio illum voluptatem quod, fugit, dolor voluptate excepturi consequatur nihil libero ad quas maxime animi accusamus!
+                    </div>
+                    <div class="tab-links">
+                        <p class="tab-link active-link" id="sk">Skills</p>
+                        <p class="tab-link" id="ex">Experience</p>
+                        <p class="tab-link" id="ed">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="sk1">
+                        <ul>
+                            <li><span>Responsive Web Design</span><br>Development of Websites on all Devices</li>
+                            <li><span>Web Design</span><br>Creation of Beautiful Websites</li>
+                            <li><span>API Integration</span><br>Incorporating APIs in Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="ex1">
+                        <ul>
+                            <li><span>2023-2024</span><br>Freelancer and Front-End Website Developer</li>
+                            <li><span>2021-2023</span><br>Junior Front-End Developer at StemLabs Kano</li>
+                            <li><span>2020-2021</span><br>Internship at StemLabs Kano</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="ed1">
+                        <ul>
+                            <li><span>2024</span><br>SSCE from Supreme College</li>
+                            <li><span>2023</span><br>Web3 and Web Design Training at Facebook</li>
+                            <li><span>2022</span><br>Web Dev Training at Leadway Synergy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="app.js"></script>
+</html>
