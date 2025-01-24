@@ -156,6 +156,8 @@ div.intro{
 
 .skills{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .skill-card{
