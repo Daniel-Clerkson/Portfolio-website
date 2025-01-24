@@ -173,6 +173,9 @@ div.intro{
     transform: translateY(-10px);
 }
 
+.img{
+
+}
 
 .skill-card h3{
     color: #fff;
@@ -211,20 +214,38 @@ div.intro{
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.project-card img.pro1{
-    width: 358.3px;
-    height: 363.3px;
+img{
+    width: 100%;
 }
 
-.project-card img.pro2{
-    width: 436.6px;
+
+.img{
+    width: 90%;
 }
 
-.project-card img.pro3{
-    width: 436.6px;
+.btns{
+    display: flex;
 }
+
+.btns button{
+    padding: 20px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 8px 7px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
 
 .contact{
     display: flex;
@@ -338,6 +359,19 @@ textarea{
     .contact{
         display: flex;
         flex-direction: column;
+    }
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .btns button {
+        margin-top: 20px;
+        justify-content: space-evenly;
     }
 
 }
