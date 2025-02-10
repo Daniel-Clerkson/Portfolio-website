@@ -43,5 +43,5 @@ link3.onclick = ()=>{
     link1_desc.classList.remove("active-tab");
     link2.classList.remove("active-link");
     link1.classList.remove("active-link");
-    console.log("Git Test")
+    console.log("Git Testing: Ignore this Message")
 }
